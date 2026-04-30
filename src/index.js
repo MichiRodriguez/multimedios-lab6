@@ -5,7 +5,7 @@ import {
   agregarTarea,
   toggleTarea,
   eliminarTarea
-} from "./modules/tasks.js";
+} from "./modules/task.js";
 import { renderTareas, actualizarContador } from "./modules/ui.js";
 
 const input = document.querySelector("#input-tarea");
